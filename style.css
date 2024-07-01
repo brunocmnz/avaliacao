@@ -144,3 +144,66 @@ body{
 .avaliacao-2{
     margin-left: 5.9rem;
 }
+
+@media screen and (max-width: 768px) {
+    body{
+        padding: 4rem 0;
+        width: 100vw;
+        height: auto;
+    }
+    
+    .cabecalho{
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+        gap: 2.5rem;
+    }
+
+    .cabecalho__descricao{
+        width: 90vw;;
+    }
+
+    .estimativa{
+        font-size: 40px;
+    }
+
+    #app{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .avaliacao-1, .avaliacao-2{
+        margin-left: 0;
+    }
+
+    #avaliacoes{
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avaliacao{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .stars{
+        width: 30%;
+    }
+
+    #app{
+        width: 100vw;
+        align-items: center;
+    }
+
+    .card{
+        margin: 0;
+        margin-bottom: 1rem;
+        width: 70vw;
+    }
+}

@@ -61,6 +61,7 @@ function criarAvaliacao(texto = "") {
 
   const img = document.createElement("img"); //Adiciona a imagem stars
   img.src = "img/stars.svg";
+  img.classList.add('stars');
   avaliacao.appendChild(img);
 
   const textoCompleto = "Rated 5 Stars in " + texto;
