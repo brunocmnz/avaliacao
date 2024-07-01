@@ -1,0 +1,146 @@
+
+
+:root{
+    --cor-escura: #512051;
+    --cor-clara: #FFFFFF;
+    --cor-detalhe: #EE69A4;
+    --cor-texto: #927B91;
+    --cor-stars: #F7F2F7;
+
+    --fonte-principal: "League Spartan", sans-serif;
+    --regular: 400;
+    --medium: 500;
+    --bold: 700;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--fonte-principal);
+    font-weight: var(--regular);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cabecalho{
+    display: flex;
+    margin-left: 1em;
+    gap: 10rem;
+}
+
+.cabecalho__descricao{
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+}
+
+.estimativa{
+    font-size: 56px;
+    font-weight: bold;
+    color: var(--cor-escura);
+}
+
+.texto{
+    color: var(--cor-texto);
+    font-size: 19px;
+    margin-top: 1.5rem;
+}
+
+.card {
+    padding: 2.5rem 2rem 2.2rem 2rem;
+    margin: 0 1rem;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: var(--cor-escura);
+    color: var(--cor-clara);
+    width: 17.8rem;
+    height: 10rem;
+}
+
+.card-2{
+    margin-top: 1rem;
+}
+
+.card-3{
+    margin-top: 2rem;
+}
+
+.usuario__nome{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.verificacao{
+    color: var(--cor-detalhe);
+    font-size: 17px;
+}
+
+.usuario__texto{
+    font-size: 19px;
+}
+
+#app{
+    display: flex;
+}
+
+.usuario{
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.usuario__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario__texto{
+    font-size: 17px;
+    font-weight: var(--medium);
+}
+
+#avaliacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.avaliacao{
+    display: flex;
+    background-color: var(--cor-stars);
+    padding: 1rem 0;
+    border-radius: 8px;
+    gap: 2rem;
+    width: 27rem;
+    justify-content: center;
+}
+
+.avaliacao__texto{
+    color: var(--cor-escura);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.avaliacao-1{
+    margin-left: 3rem;
+}
+
+.avaliacao-2{
+    margin-left: 5.9rem;
+}
